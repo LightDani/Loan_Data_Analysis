@@ -34,7 +34,7 @@ In this first try, I combined, dropped, imputed, encoded, and changed the data t
 
 ![1st Gen Features](img/1stgen_features.png)
 
-and without using generalization, here is the result:
+and without using normalization, here is the result:
 
 ![1st Gen Model](img/1stgen_model.png)
 
@@ -44,4 +44,4 @@ On the charts above, we can conclude:
 3. Best 3 accuracy on test set are Logistic Regression, Random Forest, and Neural Network.
 4. Logistic Regression have the most stable model as we can see on the mean accuracy on cross validation test.
 
-**Logistic Regression** is the best model. Fastest training time yet get the highest mean accuracy on cross validation test, even without generalization on the dataset.
+**Logistic Regression** is the best model. Fastest training time yet get the highest mean accuracy on cross validation test, even without normalization on the dataset.
