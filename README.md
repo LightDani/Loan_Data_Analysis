@@ -29,7 +29,7 @@ before we set it as target, we need to mapping out (encode) those values into nu
 ## Modelling and Evaluation
 Using 5 different model, i compare the training time, train accuracy, test accuracy, and mean accuracy on cross validation. Even tho it is little bit cheaty (i might say) because i set an early stopping on gradient boost and neural network but since it easy to set i'll let it be.
 
-### First Gen
+### **First Gen**
 In this first try, I combined, dropped, imputed, encoded, and changed the data type of some features, Leaving as below.
 
 ![1st Gen Features](img/1stgen_features.png)
@@ -38,10 +38,17 @@ and without using normalization, here is the result:
 
 ![1st Gen Model](img/1stgen_model.png)
 
-On the charts above, we can conclude:
+From charts above, we can conclude:
 1. Logistic Regression has the fastest training time.
 2. Decision Tree and Random Forest seem overfit on the training set.
 3. Best 3 accuracy on test set are Logistic Regression, Random Forest, and Neural Network.
 4. Logistic Regression have the most stable model as we can see on the mean accuracy on cross validation test.
 
 **Logistic Regression** is the best model. Fastest training time yet get the highest mean accuracy on cross validation test, even without normalization on the dataset.
+
+### **Second Gen**
+Applying normalization on dataset before fed into the model.
+
+![2nd Gen Model](img/2ndgen_model.png)
+
+From charts above, Neural Network model seems to have a better result and learn more from the data. But for overall result, there is **no significant increase on model performance**.
