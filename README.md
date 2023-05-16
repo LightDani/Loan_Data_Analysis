@@ -52,3 +52,14 @@ Applying normalization on dataset before fed into the model.
 ![2nd Gen Model](img/2ndgen_model.png)
 
 From charts above, Neural Network model seems to have a better result and learn more from the data. But for overall result, there is **no significant increase on model performance**.
+
+### **Third Gen**
+Dropped 2 columns: installment and sub_grade, leaving as below.
+
+![3rd Gen Features](img/3rdgen_features.png)
+
+and the result:
+
+![3rd Gen Model](img/3rdgen_model.png)
+
+At this point, only Logistic Regression has slightly higher accuracy but longer training time.
