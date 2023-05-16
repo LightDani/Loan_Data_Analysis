@@ -18,7 +18,7 @@ Some are comepletely empty or no values at all.
 
 ![Empty](img/empty.png)
 
-One of the feature is loan_status which later will be our target.
+One of the features is loan_status which later will be our target.
 
 ![Loan Status](img/loan_status.png)
 
@@ -27,10 +27,10 @@ before we set it as target, we need to mapping out (encode) those values into nu
 ![credit Risk](img/credit_risk.png)
 
 ## Modelling and Evaluation
-Using 5 different model, i compare the training time, train accuracy, test accuracy, and mean accuracy on cross validation. Even tho it is little bit cheaty i might say because i set an early stopping on gradient boost and neural network but since it easy to set i'll let it be.
+Using 5 different model, i compare the training time, train accuracy, test accuracy, and mean accuracy on cross validation. Even tho it is little bit cheaty (i might say) because i set an early stopping on gradient boost and neural network but since it easy to set i'll let it be.
 
 ### First Gen
-In this first try, I combined, dropped, imputed, encoded, and changed the data type of some features.
+In this first try, I combined, dropped, imputed, encoded, and changed the data type of some features, Leaving as below.
 
 ![1st Gen Features](img/1stgen_features.png)
 
@@ -38,9 +38,9 @@ and without using generalization, here is the result:
 
 ![1st Gen Model](img/1stgen_model.png)
 
-As we can see on the charts above, we can conclude:
-1. Logistic Regression is the fastest training time.
-2. Decision Tree and Random Forest seems overfit on the training set.
+On the charts above, we can conclude:
+1. Logistic Regression has the fastest training time.
+2. Decision Tree and Random Forest seem overfit on the training set.
 3. Best 3 accuracy on test set are Logistic Regression, Random Forest, and Neural Network.
 4. Logistic Regression have the most stable model as we can see on the mean accuracy on cross validation test.
 
