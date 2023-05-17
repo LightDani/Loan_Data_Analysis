@@ -63,3 +63,10 @@ and the result:
 ![3rd Gen Model](img/3rdgen_model.png)
 
 At this point, only Logistic Regression has slightly higher accuracy but longer training time.
+
+### **Fourth Gen**
+Incresing iteration and estimator; Logistic Regression (from 100 to 1000), Random Forest (from 100 to 1000), Gradient Boosting (from 100 to 1000) and Neural Network (from 100 to 1000)
+
+![4th Gen Model](img/4thgen_model.png)
+
+There is a slightly increased accuracy on Random Forest but failed to test the generalization of the model due to lack of memory on my laptop.
