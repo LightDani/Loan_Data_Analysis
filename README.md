@@ -1,6 +1,13 @@
 # Credit Risk Prediction
 **Disclaimer: The dataset i used has been modified but just slightly different from above link.**
 
+**My Laptop Spec (Acer E5-476G):**
+* Intel Core I5-8250U (base: 1.6 GHz upto 3.4 GHz)
+* Intel UHD 610 (Integrated GPU)
+* NVIDIA MX150 (Discrete GPU)
+* 8 GB DDR4 RAM dual channel (2400MHz)
+* 1 TB NVME SSD  
+
 Using loan dataset, roughtly 240MB, you can get it here: https://www.kaggle.com/datasets/amiruddin09/loandataset. The purpose of this project is to make a predictive model to predict credit risk, whether it is good or bad.
 
 ## Data Understanding
