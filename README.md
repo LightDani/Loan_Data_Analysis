@@ -70,3 +70,12 @@ Incresing iteration and estimator; Logistic Regression (from 100 to 1000), Rando
 ![4th Gen Model](img/4thgen_model.png)
 
 There is a slightly increased accuracy on Random Forest but failed to test the generalization of the model due to lack of memory on my laptop.
+
+### **Fifth Gen**
+Using same scheme with gen 3 model, i came up with the idea of voting and stacking.
+
+![5th Gen Model](img/5thgen_model.png)
+
+
+## **Conclusion**
+From all 5 gen models, we can say that Logistic Regression is the best model for predicting credit risk if we focus on target class 1 which is good based on the metric and the computational resources. But if we want to focus on predicting class 0 which is bad, we want to consider using Random Forest which performs better on traget class 0 based on the metric. Although, Decision Tree is use less computational resources than Random Forest but as we can see, Random Forest give better performance than Decision Tree.
